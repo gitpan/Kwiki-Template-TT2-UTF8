@@ -2,7 +2,7 @@ package Kwiki::Template::TT2::UTF8;
 use Kwiki::Template::TT2 -Base;
 use Kwiki::Template::TT2::UTF8::Provider;
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 sub create_template_object {
     require Template;
